@@ -1,11 +1,6 @@
 #include "DCEList.h"
-#include <Windows.h>
 #include <GL\glew.h>
 #include <GL\freeglut.h>
-#include <iostream>
-#include <vector>
-#include <queue>
-using namespace std;
 
 // Global variables
 DCEList *polygon = new DCEList();

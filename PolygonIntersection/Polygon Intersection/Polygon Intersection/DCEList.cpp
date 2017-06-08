@@ -1,6 +1,4 @@
 #include "DCEList.h"
-#include <iostream>
-using namespace std;
 
 DCEList::DCEList() {
 
@@ -96,4 +94,32 @@ void DCEList::setVertexStatus() {
 			cout << vertices[k]->eventType << endl;
 		}
 	}
+}
+
+void DCEList::makeMonotone() {
+
+}
+
+void DCEList::handleStart() {
+
+}
+
+void DCEList::handleEnd() {
+
+}
+
+void DCEList::handleMerge() {
+
+}
+
+void DCEList::handleSplit() {
+
+}
+
+void DCEList::handleRegular() {
+
+}
+
+void DCEList::triangulate() {
+
 }

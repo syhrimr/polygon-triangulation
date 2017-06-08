@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <iostream>
 using namespace std;
 
 enum EventType {
@@ -62,4 +63,6 @@ public:
 	void handleSplit();
 	void handleMerge();
 	void handleRegular();
+	// Triangulating
+	void triangulate();
 };
